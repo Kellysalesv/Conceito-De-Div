@@ -1,0 +1,86 @@
+body {
+    background-color: #16161a;
+}
+
+
+header, footer{
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+footer{
+    font-size: 1.5em;
+}
+
+main{
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid black; */
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    padding: 1em;
+    background-color: #55423d;
+    border-radius: 20px;
+}
+
+div#div-div{
+display: flex;
+justify-content: center;
+gap: 1em;
+flex-wrap: inherit;
+}
+
+div#textos{
+display: inline-block;
+justify-content: right;
+gap: 0.25em;
+/* flex-wrap: wrap; */
+}
+
+div.container1{
+    background-color: #16161a;
+    background-size: auto;
+    display: inline-flex;
+    justify-content: center;
+    gap: 2vh;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 69vw;
+    height: 100hw;
+    /* flex-wrap: wrap; */
+}
+
+div.box{
+    width: 50vw;
+    height: 50vh;
+    /* padding: 20px; */
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+}
+
+div.box-1{
+    background-image: url('https://img.elo7.com.br/product/original/268DDFD/big-poster-o-poderoso-chefao-lo01-tamanho-90x60-cm-geek.jpg');
+    background-size: cover;
+    
+
+}
+div.box-2{
+    background-image: url('https://i.pinimg.com/originals/92/a6/87/92a687223d019954e34581d4fbd75f70.jpg');
+    background-size: cover;
+
+}
+
+div.box-3{
+    background-image: url('https://img.elo7.com.br/product/original/268A58D/big-poster-filme-pulp-fiction-lo001-tamanho-90x60-cm-presente-geek.jpg');
+    background-size: cover;
+
+}
+div.box-4{
+    background-image: url('http://www.loucademiadecinema.com.br/wp-content/uploads/2020/04/the-irishman-5de40e28dd70a.jpg');
+    background-size: cover;
+
+}
+
